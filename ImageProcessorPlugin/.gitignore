@@ -1,0 +1,71 @@
+# Visual Studio-specific folders
+.vs/
+*.suo
+*.user
+*.userosscache
+
+# Build output
+bin/
+obj/
+out/
+Logs/
+*.log
+
+# ReSharper and Rider
+_ReSharper*/
+*.DotSettings.user
+
+# Test results
+TestResult*/
+*.coverage
+*.coveragexml
+
+# Azure & Publish
+*.publishxml
+*.pubxml
+*.pfx
+publish/
+AppPackages/
+BundleArtifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+packages/
+artifacts/
+
+# Others
+*.tmp
+*.tmp_proj
+*.bak
+*.cache
+*.dbmdl
+*.dbproj.schemaview
+*.vssscc
+*.vspscc
+*.pidb
+*.sdf
+*.sbr
+*.scc
+
+# Compiled binary files
+*.dll
+*.exe
+*.pdb
+
+# User-specific files
+*.rsuser
+*.sln.docstates
+*.tss
+
+# Node (in case someone adds tooling)
+node_modules/
+
+# Python cache (if used in experiments)
+__pycache__/
+*.pyc
+
+# Ignore local history (if extensions create it)
+.localhistory/
